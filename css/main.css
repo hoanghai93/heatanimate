@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+		body
+		{
+			position: absolute;
+			margin: 0 150px;
+			padding: 0;
+			background:#111111;
+			display: flex;
+			align-items: center;
+			min-height: 100vh;
+		}
+		.heart1
+		{
+			cursor: pointer;
+			margin: 100px;
+			height: 70px;
+			width: 70px;
+			background:#FF0004;
+			position: relative;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #EC0003;
+			animation: heart 0.6s linear infinite;
+		}
+		.heart1:before{
+			content: "";
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background: #FF0004;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px -10px 90px #EC0003;
+		}
+		.heart1:after{
+			content: "";
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background: #FF0004;
+			right: -50%;
+			border-radius: 50px;
+			box-shadow: 10px 10px 90px #EC0003;
+		}
+		.heart2
+		{
+			cursor: pointer;
+			margin: 100px;
+			height: 70px;
+			width: 70px;
+			background:#FFEE06;
+			position: relative;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #FFEE06;
+			animation: heart 0.6s linear infinite;
+		}
+		.heart2:before{
+			content: "";
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background: #FFEE06;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px -10px 90px #FFEE06;
+		}
+		.heart2:after{
+			content: "";
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background: #FFEE06;
+			right: -50%;
+			border-radius: 50px;
+			box-shadow: 10px 10px 90px #FFEE06;
+		}
+		.heart3
+		{
+			cursor: pointer;
+			margin: 100px;
+			height: 70px;
+			width: 70px;
+			background:#00FF05;
+			position: relative;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #00FF05;
+			animation: heart 0.6s linear infinite;
+		}
+		.heart3:before{
+			content: "";
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background: #00FF05;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px -10px 90px #00FF05;
+		}
+		.heart3:after{
+			content: "";
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background: #00FF05;
+			right: -50%;
+			border-radius: 50px;
+			box-shadow: 10px 10px 90px #00FF05;
+		}
+		.heart4
+		{
+			cursor: pointer;
+			margin: 100px;
+			height: 70px;
+			width: 70px;
+			background:#2E66FF;
+			position: relative;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #2E66FF;
+			animation: heart 0.6s linear infinite;
+		}
+		.heart4:before{
+			content: "";
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background: #2E66FF;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px -10px 90px #2E66FF;
+		}
+		.heart4:after{
+			content: "";
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			background: #2E66FF;
+			right: -50%;
+			border-radius: 50px;
+			box-shadow: 10px 10px 90px #2E66FF;
+		}
+		
+		@keyframes heart{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.7);
+			}
+		}
